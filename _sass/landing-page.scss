@@ -3,7 +3,7 @@
 	text-align: center;
 	height: 100vh;
 	min-height: 550px;
-	background-color: #333;
+	background-color: #14233C;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -16,7 +16,7 @@
 		left: 0;
 		right: 0;
 		height: 300px;
-}
+	}
 
 	p {
 		color: #fff;
@@ -43,6 +43,50 @@
 	}
 }
 
+.terms {
+	color: #ffffff;
+	text-align: center;
+	height: 50vh;
+	min-height: 100px;
+	background-color: #14233C;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+
+	&:before {
+		content: "";
+		background: linear-gradient(to bottom,rgba(0,0,0,.65) 0,rgba(0, 0, 0, 0) 100%);
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 300px;
+	}
+
+	p {
+		color: #fff;
+	}
+
+	.inner-terms {
+		display: flex;
+		align-items: center;
+		height: 100%;
+	}
+
+	.terms-text-container {
+		width: 600px;
+		text-align: left;
+
+		h1, h2, p, .button {
+			text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+		}
+	}
+
+	.terms-text-right {
+		position: absolute;
+		right: 0;
+	}
+}
 .image {
 	text-align: center;
 }

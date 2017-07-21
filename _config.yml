@@ -1,24 +1,24 @@
 # ----
 # Site
 
-title: Frisco Template
-url: "https://brave-submarine.cloudvent.net"
-baseurl:
-google_analytics_key:
-google_maps_javascript_api_key:
-disqus_shortname:
+title: ZatpatPay - Fast, Easy, Transparent.
+url: 
+baseurl: 
+google_analytics_key: UA-102992451-1
+google_maps_javascript_api_key: AIzaSyBygx1Dl5wxUsGb7kCi9HAHzznQ7qOVQ2g
+disqus_shortname: zatpatpay
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: App marketing template for Jekyll.
+description:
 author:
   name:
   email:
-  twitter: # twitter username without the @ symbol
+  twitter:
 social:
-  name: Frisco Template
+  name: ZatpatPay
   links:
-    - https://github.com/CloudCannon/frisco-jekyll-template
+    - https://zatpatpay.com
 
 # -----
 # Build
@@ -81,5 +81,5 @@ social_icons:
   - RSS
 
 _comments:
-  description: Text shown when sharing on social media
-  blurb: Short bio or description of this person
+  description: ZatpatPay - Fast, East and Transparent
+  blurb: ZatpatPay, making transactions faster for the merchants, easier for the customers, transparent and inexpensive for all.
